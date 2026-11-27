@@ -1,1 +1,80 @@
 
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LRM อ่านมังงะ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">LRM <span>MANGA</span></div>
+    <nav>
+        <a href="#">หน้าแรก</a>
+        <a href="#latest">มังงะล่าสุด</a>
+        <a href="#category">หมวดหมู่</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>ยินดีต้อนรับสู่ <span>LRM MANGA</span></h1>
+    <p>โลกแห่งมังงะ อ่านได้ทุกที่ ทุกเวลา</p>
+    <a href="#latest" class="btn">เริ่มอ่านมังงะ</a>
+</section>
+
+<section class="search">
+    <input id="searchInput" type="text"
+        placeholder="ค้นหาชื่อมังงะ...">
+    <button onclick="searchManga()">ค้นหา</button>
+</section>
+
+<section id="category">
+    <h2>หมวดหมู่</h2>
+    <div class="categories">
+        <button>Action</button>
+        <button>Romance</button>
+        <button>Fantasy</button>
+        <button>Isekai</button>
+    </div>
+</section>
+
+<section id="latest">
+    <h2>มังงะอัปเดตล่าสุด</h2>
+    <div class="manga-list" id="mangaList">
+
+        <div class="card">
+            <div class="cover cover1">LRM 01</div>
+            <h3>ตัวอย่างมังงะ 01</h3>
+            <p>ตอนที่ 1</p>
+            <button>อ่านเลย</button>
+        </div>
+
+        <div class="card">
+            <div class="cover cover2">LRM 02</div>
+            <h3>ตัวอย่างมังงะ 02</h3>
+            <p>ตอนที่ 1</p>
+            <button>อ่านเลย</button>
+        </div>
+
+        <div class="card">
+            <div class="cover cover3">LRM 03</div>
+            <h3>ตัวอย่างมังงะ 03</h3>
+            <p>ตอนที่ 1</p>
+            <button>อ่านเลย</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <h2>LRM MANGA</h2>
+    <p>เว็บไซต์อ่านมังงะของคุณ</p>
+    <p>© 2026 LRM Manga</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
